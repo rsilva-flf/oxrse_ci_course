@@ -14,7 +14,6 @@ jobs:
   build:
     runs-on: ${{matrix.os_version}}
     strategy:
-      fail_fast: false
       matrix:
        os_version: [ubuntu-latest, macos-latest, windows-latest]
 
