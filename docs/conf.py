@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'OxRSE CI Course'
+project = 'OxRSE Continuous Integration Course'
 copyright = '2025, Rafik Silva'
 author = 'Rafik Silva'
 
@@ -16,7 +16,7 @@ author = 'Rafik Silva'
 extensions = []
 
 templates_path = ['_templates']
-exclude_patterns = []
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 
 
